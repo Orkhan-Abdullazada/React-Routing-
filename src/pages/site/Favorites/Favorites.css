@@ -1,0 +1,22 @@
+.favdeleteBtn {
+    width: 150px;
+    border-radius: 6px;
+    background-color: rgba(0, 0, 0, 0.555);
+    color: white;
+    border: none;
+    padding: 10px;
+}
+
+.favdeleteBtn:hover {
+    background-color: rgba(210, 210, 210, 0.418);
+}
+
+.clearAllBtn {
+    width: 150px;
+    border-radius: 6px;
+    margin: 20px 40px;
+    background-color: rgba(22, 0, 220, 0.555);
+    color: white;
+    border: none;
+    padding: 10px;
+}

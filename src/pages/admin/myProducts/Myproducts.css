@@ -1,0 +1,83 @@
+body {
+    background-color: rgba(18, 18, 18, 0.941);
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 95%;
+    margin: 40px auto;
+    background-image: linear-gradient(to right top, #c40472, #bc1489, #ad27a0, #9738b5, #7648c9, #745cd4, #736ede, #757fe6);
+    box-shadow: 0px -6px 18px -7px rgba(245, 245, 245, 0.99);
+}
+
+td,
+th {
+    border: 1px solid #dddddd;
+    text-align: center;
+    color: white;
+    padding: 13px;
+}
+
+.edit {
+    width: 90px;
+    border: none;
+    background-color: rgb(255, 174, 0);
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    font-size: 18px;
+}
+
+.edit:hover {
+    background-color: rgb(214, 157, 0);
+    cursor: pointer;
+}
+
+.delete {
+    width: 90px;
+    border: none;
+    background-color: rgb(207, 3, 3);
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    font-size: 18px;
+}
+
+.delete:hover {
+    background-color: rgb(159, 0, 0);
+    cursor: pointer;
+}
+
+.addBtn {
+    background-color: #a475e6;
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+    width: 150px;
+    padding: 10px;
+    color: white;
+    margin-left: 35px;
+}
+
+.addBtn:hover {
+    background-color: #ad6dc7;
+    cursor: pointer;
+}
+
+.sort {
+    width: 150px;
+    margin-top: 20px;
+    border: none;
+    background-color: rgb(188, 38, 225);
+    border-radius: 5px;
+    width: 150px;
+    padding: 10px;
+    color: white;
+    margin-left: 35px;
+}
+
+.sort:hover {
+    background-color: rgb(192, 92, 216);
+    cursor: pointer;
+}

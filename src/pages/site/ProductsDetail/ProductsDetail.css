@@ -1,0 +1,29 @@
+.detail {
+    width: 60%;
+    display: flex;
+    height: 370px;
+    justify-content: space-around;
+    border-radius: 15px;
+    margin: 80px auto;
+    padding-top: 10px;
+    background-image: linear-gradient(to right top, #c40472, #bc1489, #ad27a0, #9738b5, #7648c9, #745cd4, #736ede, #757fe6, #9d9ded, #c0bcf3, #e1ddf9, #ffffff);
+    box-shadow: -3px 0px 26px 6px rgba(245, 245, 245, 0.74);
+}
+
+.detail img {
+    width: 280px;
+}
+
+.detail-text {
+    font-size: 20px;
+    width: 550px;
+    margin-top: 20px;
+    height: 230px;
+    color: white;
+    text-align: left;
+}
+
+.detail-text h5 {
+    font-size: 32px;
+    color: brown;
+}

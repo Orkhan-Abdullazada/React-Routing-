@@ -1,0 +1,78 @@
+body {
+    width: 100%;
+}
+
+.card {
+    border: 1px solid rgb(81, 81, 81);
+    border-radius: 10px;
+    width: 23%;
+    height: 450px;
+    background-image: linear-gradient(to right top, #c40472, #bc1489, #ad27a0, #9738b5, #7648c9, #745cd4, #736ede, #757fe6, #9d9ded, #c0bcf3, #e1ddf9, #ffffff);
+    box-shadow: 0px -6px 18px -7px rgba(245, 245, 245, 0.99);
+    overflow: hidden;
+    margin: 30px auto;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 250px;
+}
+
+.card-title {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+    width: 120px;
+}
+
+.card-body {
+    height: 150px;
+}
+
+.card-title:hover {
+    color: rgb(182, 182, 182);
+    text-decoration: none;
+}
+
+.card-text {
+    font-size: 20px;
+}
+
+.addFav {
+    width: 150px;
+    border-radius: 6px;
+    background-color: rgba(0, 0, 0, 0.555);
+    color: white;
+    border: none;
+    padding: 10px;
+}
+
+.addFav:hover {
+    background-color: rgba(210, 210, 210, 0.418);
+}
+
+@media screen and (max-width: 1200px) {
+    #card {
+        width: 26%;
+    }
+    #addFav {
+        width: 90px;
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    #card {
+        width: 35%;
+    }
+    #addFav {
+        width: 70px;
+        font-size: 11px;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    #nav-ul {
+        display: none;
+    }
+}

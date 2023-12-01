@@ -1,0 +1,17 @@
+.cards {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.input {
+    width: 360px;
+    padding: 7px 15px;
+    border: none;
+    border-radius: 7px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 90px;
+}

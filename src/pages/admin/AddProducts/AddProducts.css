@@ -1,0 +1,39 @@
+.form-add {
+    color: white;
+    width: 650px;
+    border-radius: 10px;
+    padding-top: 20px;
+    height: 340px;
+    background-image: linear-gradient(to right top, #c40472, #bc1489, #ad27a0, #9738b5, #7648c9, #745cd4, #736ede, #757fe6);
+    box-shadow: 0px -6px 18px -7px rgba(245, 245, 245, 0.99);
+    text-align: center;
+    margin: 120px auto;
+}
+
+.name {
+    padding: 15px;
+    font-size: 22px;
+}
+
+.price {
+    padding: 10px;
+    font-size: 22px;
+}
+
+.submitBtn {
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 22px;
+    background-color: rgb(1, 171, 1);
+    width: 90px;
+    padding: 10px;
+}
+
+input {
+    width: 80%;
+    border: none;
+    padding: 12px;
+    border-radius: 6px;
+}

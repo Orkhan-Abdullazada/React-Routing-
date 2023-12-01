@@ -1,0 +1,44 @@
+.edit_product_form {
+    background-image: linear-gradient(to right top, #c40472, #bc1489, #ad27a0, #9738b5, #7648c9, #745cd4, #736ede, #757fe6, #9d9ded, #c0bcf3, #e1ddf9, #ffffff);
+    box-shadow: 0px -6px 18px -7px rgba(245, 245, 245, 0.99);
+    border-radius: 10px;
+    width: 550px;
+    margin: 90px auto;
+    height: 350px;
+    padding: 20px;
+    text-align: center;
+}
+
+.name,
+.price {
+    width: 80%;
+    padding: 30px 15px;
+    margin-top: 10px;
+    font-size: 18px;
+    height: 40px;
+    padding: 5px;
+}
+
+.changeBtn {
+    width: 120px;
+    border: none;
+    border-radius: 7px;
+    padding: 10px 15px;
+    font-size: 18px;
+    color: white;
+    margin-top: 40px;
+    background-color: rgb(255, 174, 0);
+}
+
+.nameLabel {
+    color: white;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.spinner {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
